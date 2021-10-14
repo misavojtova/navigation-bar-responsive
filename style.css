@@ -32,7 +32,8 @@ ul {
 nav {
   grid-area: nav;
   padding: 0rem 1rem;
-  transition: height 1s ease-in-out;
+  height: auto;
+  transition: height 4s ease-in-out;
 }
 
 nav .nav-menu {
@@ -89,12 +90,15 @@ nav .nav-items:nth-last-child(4) {
 
 #sidebar-left {
   grid-area: sidebar-left;
+  background-color: aqua;
 }
 #content-left {
   grid-area: content-left;
+  background-color: yellow;
 }
 #content-right {
   grid-area: content-right;
+  background-color: tomato;
 }
 #sidebar-right {
   grid-area: sidebar-right;
